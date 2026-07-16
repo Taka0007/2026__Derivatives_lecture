@@ -1,0 +1,103 @@
+\documentclass[uplatex,11pt,a4paper]{jsarticle}
+
+% ---------- Packages ----------
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{xcolor}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools, bm}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+\usepackage[
+  dvipdfmx,
+  colorlinks=true,
+  linkcolor=blue!50!black,
+  citecolor=blue!50!black,
+  urlcolor=blue!50!black
+]{hyperref}
+
+\usepackage[nameinlink,noabbrev]{cleveref}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools, bm}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+% ---------- Page layout ----------
+\usepackage[
+  top=25mm,
+  bottom=25mm,
+  left=25mm,
+  right=25mm
+]{geometry}
+
+% ---------- theorem environments ----------
+\theoremstyle{definition}
+\newtheorem{definition}{定義}[section]
+\newtheorem{example}[definition]{例}
+
+\theoremstyle{plain}
+\newtheorem{theorem}[definition]{定理}
+\newtheorem{proposition}[definition]{命題}
+\newtheorem{lemma}[definition]{補題}
+\newtheorem{corollary}[definition]{系}
+
+\theoremstyle{remark}
+\newtheorem{remark}[definition]{注意}
+
+% ---------- cleveref names ----------
+\crefname{definition}{定義}{定義}
+\crefname{theorem}{定理}{定理}
+\crefname{proposition}{命題}{命題}
+\crefname{lemma}{補題}{補題}
+\crefname{corollary}{系}{系}
+\crefname{remark}{注意}{注意}
+\crefname{example}{例}{例}
+
+% ---------- Math commands ----------
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prob}{\mathbb{P}}
+
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\tr}{\mathrm{tr}}
+\newcommand{\rank}{\mathrm{rank}}
+\newcommand{\diag}{\mathrm{diag}}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\inner}[2]{\left\langle #1,#2 \right\rangle}
+\newcommand{\opnorm}[1]{\left\lVert #1 \right\rVert_{\mathrm{op}}}
+\newcommand{\fnorm}[1]{\left\lVert #1 \right\rVert_{\mathrm{F}}}
+
+% ---------- Metadata ----------
+\title{デリバティブ論 期末レポート}
+\author{0430-37-3524  生田目 敬大}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\section*{設問1}
+出席回数は大体10回程度である
+
+\section*{設問2}
+\subsection*{問題1}
+下記の等式が成立することを示せ.
+
+\[
+_n C_m = \sum_{k=m-1}^{n-1} {_k C_{m-1}}
+\]
+
+[Answer]
+
+
+
+\end{document}
